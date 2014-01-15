@@ -1,3 +1,3 @@
 module SpreeNoShipping
-  VERSION = "0.0.01"
+  VERSION = "0.0.03"
 end

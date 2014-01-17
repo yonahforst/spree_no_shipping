@@ -6,4 +6,6 @@ Spree::Order.class_eval do
     go_to_state :confirm
     go_to_state :complete
   end  
+  
+  remove_checkout_step :delivery
 end
